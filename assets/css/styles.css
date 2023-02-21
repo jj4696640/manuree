@@ -13,17 +13,13 @@
     height: 400px;
 }
 #login__container {
-    height: 500px;
+    height: auto;
 }
 
 /* Large Sized Tablet Screens > 768px */
 @media (max-width: 1024px) {
     #login__logo img {
         height: 300px;
-    }
-
-    #login__container {
-        height: auto;
     }
 }
 
@@ -33,18 +29,11 @@
         height: 200px;
     }
 
-    #login__container {
-        height: auto;
-    }
 }
 
 /* Default Size for Mobile Screens */
 @media (max-width: 480px) {
     #login__logo img {
         height: 100px;
-    }
-
-    #login__container {
-        height: auto;
     }
 }
