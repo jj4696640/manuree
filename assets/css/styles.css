@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set Login page image width according to screen size */
+/* Default size for Desktop Screens */
+#login__logo img {
+    height: 400px;
+}
+#login__container {
+    height: 500px;
+}
+
+/* Large Sized Tablet Screens > 768px */
+@media (max-width: 1024px) {
+    #login__logo img {
+        height: 300px;
+    }
+
+    #login__container {
+        height: auto;
+    }
+}
+
+/* Default Medium Sized Tablet Screen*/
+@media (max-width: 768px) {
+    #login__logo img {
+        height: 200px;
+    }
+
+    #login__container {
+        height: auto;
+    }
+}
+
+/* Default Size for Mobile Screens */
+@media (max-width: 480px) {
+    #login__logo img {
+        height: 100px;
+    }
+
+    #login__container {
+        height: auto;
+    }
+}
