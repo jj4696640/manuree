@@ -10,7 +10,7 @@
 
 .card-body {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://picsum.photos/200/300') no-repeat center / cover;
-    height: 300px;
+    height: 400px;
 }
 
 /* Set Login page image width according to screen size */
